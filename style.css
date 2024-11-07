@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family:, archivo black, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family:archivo black , sans-serif;
+    background-color: #8B7055;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #8B7055;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Styling the Jamu List */
+.jamu-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-image: url("img/backround.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jamu-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+}
+
+.jamu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.jamu-item h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.jamu-item p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.detail-link {
+    display: inline-block;
+    background-color: #701B1B;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.detail-link:hover {
+    background-color: #159a95;
+}
+
+/* Detail Page */
+.detail-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: sandybrown;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.detail-item h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.detail-item p {
+    font-size: 1rem;
+    color: #444;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #1e6e6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-link:hover {
+    background-color: #159a95;
+}
+
+/* Modify the container to display flex */
+.container {
+    display: flex;
+    justify-content: space-between; /* Optional: to make space between image and content */
+    align-items: flex-start; /* Optional: to align them at the top */
+    padding: 20px;
+}
+
+/* Styling for the image */
+.photo {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-right: 20px; /* Space between the image and content */
+}
+
+.photo img {
+    width: 300px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+
+/* Styling for the content section */
+.content {
+    flex-grow: 1; /* Allow content to take remaining space */
+}
+
+/* Keep the section layout as is */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Other styles remain unchanged */
